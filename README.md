@@ -1,4 +1,3 @@
-User
 #include <stdlib.h>
 #include <stdio.h>
 #define LONGEUR 2310
@@ -8,7 +7,7 @@ User
 int main()
 {
 	FILE * fichier;
-    fichier = fopen("~/Documents/wordle_KIADY_JEANPAUL/ressources/bdd_wordle.txt", "r"); 
+    fichier = fopen("home/kiki/Documents/wordle_KIADY_JEANPAUL/ressources/bdd_wordle.txt", "r"); 
     
     if (fichier!=NULL)
     {
@@ -18,8 +17,6 @@ int main()
     
     else
     {
-    	printf("Failed to open\n");
-    } 
-}
-
-    
+    	printf("Failed\n");
+    }
+}  
